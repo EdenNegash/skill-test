@@ -1,0 +1,41 @@
+th, td{
+    border: 1px solid black;
+    border-collapse:collapse
+}
+
+
+
+.box {
+    display: grid;
+    width: 800px;
+    background-color:green;
+    grid-template-areas:"a b c";                       
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 75px 75px ;
+}
+
+.a {
+    background-color: lightcoral;
+    grid-area: a;
+    margin: 10px 10px;
+    text-align: center;
+
+}
+.b {
+    background-color:aqua;
+    grid-area: b;
+    margin: 10px 10px;
+    text-align: center;
+
+}
+.c {
+    background-color:brown;
+    grid-area: c;
+    margin: 10px 10px;
+    text-align: center;
+
+}
+
+form{
+margin: 10px;
+}
